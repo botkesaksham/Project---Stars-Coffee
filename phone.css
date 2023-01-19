@@ -103,11 +103,11 @@
     height: 25rem;
     width: 100vw;
     margin-top: -12px;
-    background-image: url(background-contact.png);
+    background-image: url(contact.jpg);
     background-repeat: no-repeat;
     background-size: 200%;
     z-index: -1;
-    opacity: 0.8;
+    opacity: 0.9;
 
 }
 
