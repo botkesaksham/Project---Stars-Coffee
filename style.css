@@ -9,16 +9,7 @@ html,body{
 
 
 /* navigation bar */
-#logo{
-    background-image:url('logo.png');
-    height: 65px;
-    width: 120px;
-    background-size: 85%;
-    margin-top: 3px;
-    margin-right: 4px;
-    margin-left: -13px;
-    background-repeat: no-repeat;
-}
+
 
 
 
@@ -41,7 +32,7 @@ html,body{
 
 #navbar li a{
     display: block;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 2px;
@@ -78,7 +69,7 @@ html,body{
 #home::before{
     content: " ";
     position: absolute;
-    height: 70vh;
+    height: 26rem;
     width: 100vw;
     background-image: url('background.jpg');
     background-repeat: no-repeat;
@@ -138,6 +129,7 @@ html,body{
 
 .box img{
     height: 150px;
+    width: 9rem;
     display: block; /*to center the images */
     margin: auto;
     
@@ -180,7 +172,7 @@ html,body{
     margin-top: -12px;
     background-image: url(background-contact.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     z-index: -1;
     opacity: 0.8;
 
@@ -205,7 +197,7 @@ html,body{
 /* footer */
 footer{
     color: white;
-    background-color: black;
+    background-color: rgb(15, 14, 14);
     padding: 4px 20px;
     text-align: center;
 }
