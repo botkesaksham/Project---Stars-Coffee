@@ -49,7 +49,7 @@ html,body{
     content:" ";
     background-color: black;
     position: absolute;
-    height: 50px;
+    height: 3rem;
     width: 100%;
     z-index: -1;
     opacity: 1;
@@ -62,21 +62,21 @@ html,body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding :10px 200px;
+    padding :1rem 12rem;
    
 }
 
 #home::before{
     content: " ";
     position: absolute;
-    height: 26rem;
+    height: 21rem;
     width: 100vw;
     background-image: url('background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
     opacity: 0.88;
-    margin-bottom: 15vh;
+    
 }
 
 #home p{
@@ -85,27 +85,15 @@ html,body{
     font-style: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:white;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .primary{
-    font-size: 2.8rem;
+    font-size: 3.3rem;
     margin-bottom: 10px;
 
 }
 
-.btn{
-    background-color: rgb(114, 34, 34);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 170px;
-    height: 30px;
-    border-radius: 10px;
-}
-
-.btn:hover{
-    background-color: red;
-    cursor: pointer;
-}
 
 /* section:services */
 #menu{
@@ -141,14 +129,20 @@ html,body{
 
 /* utility classes */
 .h-primary{
-    margin-top: 36px;
-    margin-bottom: 11px;
-    font-size: 1.8rem;
+    margin-top: 1.7rem;
+    margin-bottom:1rem;
+    font-size: 1.9rem;
     text-align: center;
 }
 .h-secondary{
     text-align: center;
 
+}
+.h-contact{
+    text-align: center;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
